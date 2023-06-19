@@ -11,14 +11,19 @@ body {
 }
 
 #caixa-fundo-verde { 
-    position: absolute;
     width: 647px;
     height: 586px;
-    left: 389px;
-    top: 158px;
-
     background: #058C42;
     border-radius: 25px;
+   
+}
+
+#caixa-verde-flex {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #titulo-principal {
@@ -121,9 +126,9 @@ hr {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 61px;
     text-align: center;
 
-    color: #0D2818;
+    color: #292929;
 }
